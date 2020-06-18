@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <span class="header__title">Rock, Paper & Scissors</span>
+        </header>
+        
+        <main class="arena">
+            <div class="opponent-side">
+                <div class="slot slot--opponent"></div>
+            </div>
+            <div class="arena__score"> 
+                <!-- Magia JS'a -->
+            </div>
+            <div class="player-side">
+                <div name="paper" class="slot slot--paper">
+                    <img class="slot__img" src="assets/paper.png" alt="Papier">
+                </div>
+                <div name="scissors" class="slot slot--scissors">
+                    <img class="slot__img" src="assets/scissors.png" alt="">
+                </div>
+                <div name="rock" class="slot slot--rock">
+                    <img class="slot__img" src="assets/rock.png" alt="">
+                </div>
+            </div>
+        </main>
+    </div>
+<script src="js/Players.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
